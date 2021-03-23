@@ -1,0 +1,112 @@
+print() - Function prints the value given inside the parenthesis  - Exercise 1
+        - can use "" and '' to print strings - Exercise 2
+        - can print strings (in "" or '') and the maths ( seperated by , ) - Exercise 3
+        - can print varible values and string and math separated by ,  - Exercise 4
+        - Can add strings and varibles just by +
+        - """ """ works prints everthing inside and we can change lines to set it up
+
+#       - comment operator that tells python to not run the stuff after # - Exercise 2
+        - This helps in leaving comments in the code for review - Exercise 2
+
+import  - to import a function library
+from    - to import a specific set of function inside a library
+
+argv    - through this we give the script input when we call it
+          it needs a extra variable set to save the script.
+
+sys     - library which have functions that interact with the interpreter
+
+open    - opens a file and returns a stream (Streams allow sending and receiving data without using callbacks or low-level protocols and transports.)
+
+open.read()     - method in open to read a file
+open.close()    - method to close the opened stream of file
+open.truncate() - method to delete everthing inside the file
+open.write()    - method to write in a file
+open.seek(0,1,2)- it goes to start of the file when 0, 1 to the line were user is, 2 at the end of the file
+open.readline() - it reads a line and increments to next line (so, if run again it reads the next line)
+
+int()   - function to return interger datatype of whatever is inside
+float() - function returns float value of whatever is inside
+
+ 
+def name(parameter1, parameter2):
+        logic
+        return
+
+above is a basic fucntion syntax. functions are when we want to use same set of code again and agian so we name it and call it we required
+
+
+
+variables - they are similar to math variables 
+          - can save strings, numbers, other varibales, functions (with something they are returning)
+
+f""     - can be used to format in varible values inside a string (i.e inside "" or '' or """ """)
+
+.format - method works similar to f""
+
+input() - takes input from user
+
+
+
+
+
+'' or "" - can be used to tell ptyhon that the stuff inside should be treated as strings
+
+------- OPERATORS in PYTHON -----------
+
+ARITHMETIC OPERATORS
+
++       - Addition
+-       - substraction
+*       - Multiplication
+/       - Division
+%       - Modulus       - gives the remaider from a Division
+**      - Exponentiation / to the power of
+//      - floor division - returns an integral part of the division
+
+ASSIGNMENT OPERATORS
+
+=       - to assign a value
++=      - increase the value by one and assign it to the left 
+-+      - decrease the value by one and assign it to the left
+*=      - Multiplies the variable by a value and assigns the result to that variable.
+/=      - Divides the variable by a value and assigns the result to that variable.
+**=     - Raises the variable to a specified power and assigns the result to the variable.
+%=      - Computes the modulus of the variable and a value and assigns the result to that variable.
+//=     - Floor divides the variable by a value and assigns the result to that variable.
+
+RELATIONAL OPERATORS
+
+==      - equal to
+!=      - not equal to
+>       - greater than
+<       - less than
+>=      - greater than or equal 
+<=      - less than or equal
+
+BOOLEAN OPERATORS
+
+and     - return true or false
+or      - "
+not     - "
+
+more stuff on - https://python-reference.readthedocs.io/en/latest/docs/operators/index.html
+
+-------------Escape Symbols--------------
+
+\\      - Backslash(\)
+\'      - Single-quote(')
+\"      - Double-quote(")
+\a      - ASCII bell (BEL)
+\b      - ASCII backspace (BS)
+\f      - ASCII formfeed (LF)
+\n      - ASCII linefeed(LF)
+\N{name}- Cahracter named name in the Unicode database (Uniode only)
+\r      - Carraige return (CR)
+\t      - Horizontal tab (TAB)
+\uxxxx  - Character with 16-bit hex value xxxx
+\U      - Character with 32-bit hex value xxxxxxxx
+\v      - ASCII vertical tab (VT)
+\ooo    - Character with octal value ooo
+\xhh    - Character with hex value hh
+
